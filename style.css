@@ -57,7 +57,7 @@ body {
 }
 .message {
   outline: none;
-  border: 2px solid black;
+  border: 2px solid #000;
 }
 .btn_primary {
   width: 191px;
