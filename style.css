@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.main {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 128px 140px 0px 158px;
+}
+.left_side {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.contact_title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.phone_info span,
+.email_info span {
+  font-size: 24px;
+  font-weight: 700;
+}
+.phone_info p,
+.email_info p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 35px;
+  row-gap: 15px;
+}
+.contact_input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact_input label {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.input {
+  width: 294px;
+  height: 53px;
+  outline: none;
+  border: 2px solid black;
+}
+.message {
+  outline: none;
+  border: 2px solid #000;
+}
+.btn_primary {
+  width: 191px;
+  height: 191px;
+  border-radius: 50%;
+  background: #eea302;
+  border: 1px solid #593e03;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
