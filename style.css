@@ -1,0 +1,30 @@
+.main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+@font-face {
+    font-family: Dancing;
+    src: url(DancingMinotaur.ttf);
+}
+@font-face {
+    font-family: archivo;
+    src: url(Archivo-Regular.ttf);
+}
+.conteneur-descriptive{
+    box-shadow: 5px 5px 8px #7c7c7c;
+    padding: 20px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: Dancing;
+    color: #7c7c7c;
+}
+
+p{
+    font-family: archivo;
+    color: #292929;
+    text-align: justify;
+}
